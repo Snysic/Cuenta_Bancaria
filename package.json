@@ -1,0 +1,19 @@
+{
+    "name": "cuentabancaria",
+    "version": "1.0.0",
+    "description": "Vocals in sentence",
+    "main": "index.html",
+    "dependencies": {
+        "cuentabancaria": "file:",
+        "json-server": "*",
+        "vocalsinsentence": "file:"
+    },
+    "devDependencies": {
+        "jest": "*"
+    },
+    "scripts": {
+        "test": "jest"
+    },
+    "author": "Maria Vasilenko",
+    "license": "ISC"
+}
