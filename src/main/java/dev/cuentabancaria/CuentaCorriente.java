@@ -2,7 +2,7 @@ package dev.cuentabancaria;
 
 public class CuentaCorriente extends Cuenta{
 
-    float sobregiro;
+    public float sobregiro;
     
     
     public CuentaCorriente(float saldo, float tasa) {

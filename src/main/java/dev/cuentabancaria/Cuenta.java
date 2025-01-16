@@ -1,11 +1,11 @@
 package dev.cuentabancaria;
 
 public class Cuenta {
-    protected float saldo; 
-    protected int numConsignaciones = 0;
-    protected int numRetiros = 0;
+    public float saldo; 
+    public int numConsignaciones = 0;
+    public int numRetiros = 0;
     protected float tasaAnual;
-    protected float comMensual = 0;
+    public float comMensual = 0;
     
     
     public Cuenta(float saldo, float tasaAnual) {
